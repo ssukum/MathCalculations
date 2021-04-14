@@ -226,7 +226,7 @@ class BigDecimalArithmeticTest {
 
     @Test
     void hashCodeOfArithmetic() {
-        // hashCode of RoundingMode enum changing after every start
+        // hashCode of RoundingMode enum changing after every start the program
         assertEquals(
             new BigDecimalArithmetic().hashCode(),
             new BigDecimalArithmetic().hashCode()
